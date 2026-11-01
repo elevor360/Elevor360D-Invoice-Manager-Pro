@@ -10,3 +10,5 @@ IMPORTANT: Data is stored only in the current browser/device. Download backups r
 This is a basic single-user invoice manager, not accounting or tax-compliance software.
 The VAT rate is manually entered. Verify invoice details and tax treatment before issuing.
 Printing uses the browser print dialog; select Save as PDF to export.
+
+V1.1: Updated install prompt handling, manifest icon purposes, and cache version. Direct installation is only possible when Chrome fires beforeinstallprompt.
