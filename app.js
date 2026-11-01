@@ -26,7 +26,7 @@ installButton.onclick=async()=>{
     installHelp.textContent='Chrome cannot show its installation popup inside this app-style window. Copy the GitHub address below and open it directly in a normal Chrome tab.';
     showBrowserLink();return;
   }
-  installHelp.textContent='Chrome has not offered an installation popup yet. Use Chrome’s menu → Add to Home screen / Install app if available.';
+  installHelp.textContent='Chrome has not offered an installation popup. If Chrome says Open in app and shows Local Deals, that installed app may be capturing this link. Open chrome://apps to review installed apps, or try a fresh Chrome profile. Do not uninstall Local Deals unless you want to.';
   await diagnoseInstall();
 };
 function showBrowserLink(){
