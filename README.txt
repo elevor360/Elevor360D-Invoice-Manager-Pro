@@ -14,3 +14,5 @@ Printing uses the browser print dialog; select Save as PDF to export.
 V1.1: Updated install prompt handling, manifest icon purposes, and cache version. Direct installation is only possible when Chrome fires beforeinstallprompt.
 
 V1.2: Gold Elevor360D logo added to header. Install button remains visible in normal browser mode and hidden in standalone installed mode.
+
+V1.3: Installation button no longer incorrectly treats standalone display mode as proof of installation. App-style windows show instructions for opening the URL in normal Chrome. Navigation and app script use network-first caching for faster updates.
