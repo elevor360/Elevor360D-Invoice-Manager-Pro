@@ -12,3 +12,5 @@ The VAT rate is manually entered. Verify invoice details and tax treatment befor
 Printing uses the browser print dialog; select Save as PDF to export.
 
 V1.1: Updated install prompt handling, manifest icon purposes, and cache version. Direct installation is only possible when Chrome fires beforeinstallprompt.
+
+V1.2: Gold Elevor360D logo added to header. Install button remains visible in normal browser mode and hidden in standalone installed mode.
