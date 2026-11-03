@@ -18,3 +18,5 @@ V1.2: Gold Elevor360D logo added to header. Install button remains visible in no
 V1.3: Installation button no longer incorrectly treats standalone display mode as proof of installation. App-style windows show instructions for opening the URL in normal Chrome. Navigation and app script use network-first caching for faster updates.
 
 V1.4: Unique Invoice Manager Pro manifest identity and cache revision. IMPORTANT: The unique manifest ID assumes GitHub repository path /Elevor360D-Invoice-Manager-Pro/. If your actual repository path differs, edit manifest.webmanifest id to match that path. Chrome may still route links into an already installed Local Deals app due to its link-handling settings; that cannot be forced from this app.
+
+V1.5: Settings & Backup > Business details now saves a business logo, name, address, email, phone, website and payment instructions. The logo appears on printed/PDF invoices and is included in JSON backups. Upload all files to the SAME existing GitHub Pages repository to retain browser-stored records. Back up before updating.
